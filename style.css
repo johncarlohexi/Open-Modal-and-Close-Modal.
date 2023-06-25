@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.container {
+    height: 50vh;
+    width: 50%;
+    background-color: lightblue;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn-box {
+    text-align: center;
+    width: 100%;
+}
+
+#hiddenBox {
+    display: none;
+}
+
+#hiddenBox.active {
+    display: block;
+}
+
